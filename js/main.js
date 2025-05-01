@@ -151,7 +151,7 @@ var selectRandomSong = [];
 // 音乐默认声音大小
 var musicVolume = 0.7;
 // 是否切换了周杰伦音乐列表
-var changeMusicListFlag = true;
+var changeMusicListFlag = false;
 // 当前默认播放列表
 var defaultPlayMusicList = [];
 var themeColorMeta, pageHeaderEl, navMusicEl, consoleEl;
