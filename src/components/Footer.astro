@@ -1,0 +1,25 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer>
+	<p>&copy; {year} Hts1216. 保留所有权利。</p>
+	<p>
+		<a href="https://github.com/Hts1216">GitHub</a>
+		<span aria-hidden="true"> · </span>
+		<a href="/rss.xml">RSS 订阅</a>
+		<span aria-hidden="true"> · </span>
+		由 <a href="https://astro.build/">Astro</a> 驱动
+	</p>
+</footer>
+<style>
+	footer {
+		padding: 2em 1em 4em;
+		background: linear-gradient(var(--gray-gradient)) no-repeat;
+		color: rgb(var(--gray));
+		text-align: center;
+		font-size: 0.85em;
+	}
+	p { margin: 0.5em 0; }
+	a { color: inherit; }
+</style>
