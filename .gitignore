@@ -2,6 +2,11 @@
 dist/
 # generated types
 .astro/
+.shirones/
+.runtime/
+.shirones-ts-*/
+.shirones-backup/
+src/generated/local-icon-collections.ts
 
 # dependencies
 node_modules/
