@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 	site: "https://lampweb.top/",
 	base: "/",
 	title: "Lamp の BLOG",
-	subtitle: "记录学习、项目与生活。",
+	subtitle: "悟已往之不谏 知来者之可追",
 	// 电脑端顶栏标题与导航内容区域："left" 左对齐，"center" 居中。
 	topAppBar: {
 		contentAlign: "center",
