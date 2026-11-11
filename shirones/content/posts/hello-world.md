@@ -2,7 +2,7 @@
 title: 小台灯の第一篇博客诞生
 description: 记录一下我的第一个博客
 published: 2026-11-11
-image: /images/first-post.jpg
+image: /images/first-post.jpg?v=2
 tags: [博客]
 category: 随笔
 draft: false

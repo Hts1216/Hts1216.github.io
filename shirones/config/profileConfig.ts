@@ -6,7 +6,7 @@ import { withUserConfig } from "@/utils/config-overlay.ts";
  * 类型见 src/types/config.ts。
  */
 export const profileConfig: ProfileConfig = withUserConfig("profile", {
-	avatar: "/images/avatar.png",
+	avatar: "/images/avatar.png?v=2",
 	name: "Lamp",
 	bio: "大四在读的一只菜鸟\n交流CS AI QQ:3250913221",
 	links: [
