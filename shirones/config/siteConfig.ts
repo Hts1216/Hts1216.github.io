@@ -10,9 +10,9 @@ import { withUserConfig } from "@/utils/config-overlay.ts";
  * 类型见 src/types/config.ts。
  */
 export const siteConfig: SiteConfig = withUserConfig("site", {
-	site: "https://hts1216.github.io/",
+	site: "https://lampweb.top/",
 	base: "/",
-	title: "Hts1216 的博客",
+	title: "Lamp の BLOG",
 	subtitle: "记录学习、项目与生活。",
 	// 电脑端顶栏标题与导航内容区域："left" 左对齐，"center" 居中。
 	topAppBar: {
@@ -31,7 +31,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 	// IANA time zone for precise post and moment timestamps. It is independent of lang.
 	timeZone: "Asia/Singapore",
 	themeColor: {
-		hue: 262, // 默认蓝紫色；访客可以在显示设置中调整。
+		hue: 115, // 默认黄绿色；访客可以在显示设置中调整。
 		fixed: false, // Hide the theme color picker for visitors
 		// Dynamic Material 3 palette style (TonalSpot/Vibrant/Content/Expressive/Rainbow/FruitSalad/Monochrome/Neutral/Fidelity)
 		style: "tonalSpot",
@@ -57,22 +57,22 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 		// desktop 用于 >= 1024px；mobile 仅用于 < 1024px 的首页，手机非首页不显示壁纸。
 		// 数组顺序就是轮播顺序；只需要静态 Banner 时，每组保留一张图片即可。
 		src: {
-			desktop: ["/images/banner-desktop.webp"],
-			mobile: ["/images/banner-mobile.webp"],
+			desktop: ["/images/yellow-patchwork-desktop.png"],
+			mobile: ["/images/yellow-patchwork-mobile.png"],
 		},
 		// 图片裁切焦点："top"、"center" 或 "bottom"。
 		position: "center",
 		dim: {
 			// 在图片上覆盖黑色遮罩以提高标题和顶部栏的对比度；opacity 范围为 0-1。
 			enable: true,
-			opacity: 0.24,
+			opacity: 0.08,
 		},
 		homeText: {
 			// 仅在首页 Banner 中显示，标题与副标题会上下居中排列。
 			enable: true,
-			title: "Hts1216 的博客",
+			title: "Lamp の BLOG",
 			subtitle: [
-				"记录学习、项目与生活。",
+				"悟已往之不谏 知来者之可追",
 			],
 			typewriter: {
 				// 副标题逐字显示；关闭后直接显示完整副标题。

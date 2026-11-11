@@ -1,0 +1,28 @@
+/* 导航栏跟随主题配色，实色底保证菜单清晰。 */
+#navbar {
+  --on-surface: var(--mc-on-surface);
+  --on-surface-variant: var(--mc-on-surface-variant);
+  --primary: var(--mc-primary);
+  background: var(--mc-surface-container-low);
+  color: var(--on-surface);
+  border-bottom: none;
+  box-shadow: none;
+}
+
+#navbar .top-app-bar__nav-link--active::after {
+  background: var(--primary);
+}
+
+/* 顶部站点名和导航菜单的大小。 */
+#navbar > div > a > span:last-child {
+  font-size: 1.375rem;
+}
+
+#navbar .top-app-bar__nav-link {
+  font-size: 1.125rem;
+  padding-inline: 0.625rem;
+}
+
+#navbar .top-app-bar__nav-link > svg {
+  font-size: 1.25rem;
+}
